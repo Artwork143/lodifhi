@@ -51,12 +51,22 @@ function Contact() {
                 </tr>
               </thead>
               {contactData.map((contact) => (
-              <tbody>
-                <tr>
-                  <td class="py-2 px-4 border-b">{contact.department}</td>
-                  <td class="py-2 px-4 border-b">{contact.contactNum}</td>
-                </tr>
-              </tbody>
+                <tbody>
+                  <tr>
+                    <td class="py-2 px-4 border-b">{contact.department}</td>
+                    <td class="py-2 px-4 border-b">
+                      {contact.contactNum.length < 11
+                        ? contact.contactNum.slice(0, 3)
+                        : contact.contactNum.slice(0, 4)}{" "}
+                      {contact.contactNum.length < 11
+                        ? contact.contactNum.slice(3, 6)
+                        : contact.contactNum.slice(4, 7)}{" "}
+                      {contact.contactNum.length < 11
+                        ? contact.contactNum.slice(6, 10)
+                        : contact.contactNum.slice(7, 11)}
+                    </td>
+                  </tr>
+                </tbody>
               ))}
             </table>
           </div>
