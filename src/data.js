@@ -235,6 +235,13 @@ export const carouselData = [
   { id: 4, Source: "image5.jpg" },
 ];
 
+export const contactData = [
+  { id: 0, department: "Information", contactNum: "0344880868" },
+  { id: 1, department: "Emergency", contactNum: "09158713567" },
+  { id: 2, department: "Accounting", contactNum: "09158713567" },
+  { id: 3, department: "Pharmacy", contactNum: "09158713567" }
+];
+
 export const roomsData = [
   {id: 0, source: "/services/ward.png", title: "Ward", rate: 900, amenities: ["3 Beds", "Fully Air Conditioned", "Restroom", "Visitor’s Chair"] },
   {id: 1, source: "/services/privateFan.png", title: "Private (Fan)", rate: 1000, amenities: ["2 Beds", "Fan Only", "Restroom", "Visitor’s Chair"] },
