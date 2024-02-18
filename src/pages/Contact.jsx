@@ -17,31 +17,47 @@ function Contact() {
         </div>
       </div>
 
-      <form>
-        <div className="grid sm:grid-cols-2 2xl:grid-cols-6 gap-5 my-5 sm:my-5">
-          <div className="bg-[#337CCF] row-span-2 2xl:col-start-2 w-full h-auto  2xl:w-[600px] 2xl:h-full rounded-lg px-5 py-5">
-            <p className="text-white mb-2 cursor-default">Name</p>
-            <input className="required border rounded-md p-2 w-full h-auto focus:outline-none focus:ring focus:border-blue-400"></input>
+      <form action="mailto:lodifhi@gmail.com">
+        <div className="grid sm:grid-cols-2 lg:grid-cols-6 gap-5 my-5 sm:my-5">
+          <div className="bg-[#337CCF] row-span-2 lg:col-start-2 lg:col-end-4 w-full h-auto rounded-lg px-5 py-5">
+            <label className="text-white mb-2 cursor-default">Name</label>
+            <input
+              required
+              className="border rounded-md p-2 w-full h-auto focus:outline-blue-300"
+            ></input>
             <div className="grid grid-cols-2 gap-2">
-              <p className="text-white mt-2 cursor-default">Mobile Number</p>
-              <p className="text-white mt-2 cursor-default">Email Address</p>
-              <input className="required border rounded-md p-2 w-full h-auto focus:outline-none focus:ring focus:border-blue-400"></input>
-              <input className="required border rounded-md p-2 w-full h-auto focus:outline-none focus:ring focus:border-blue-400"></input>
+              <label className="text-white mt-2 cursor-default">
+                Mobile Number
+              </label>
+              <label className="text-white mt-2 cursor-default">
+                Email Address
+              </label>
+              <input
+                required
+                type="number"
+                className="border rounded-md p-2 w-full h-auto focus:outline-blue-300 [&::-webkit-outer-spin-button]:appearance-none [&::-webkit-inner-spin-button]:appearance-none"
+              ></input>
+              <input
+                required
+                type="email"
+                className="border rounded-md p-2 w-full h-auto focus:outline-blue-300"
+              ></input>
             </div>
 
-            <p className="text-white my-2 cursor-default">Message</p>
-            <textarea class="resize-none border rounded-md p-2 w-full h-72 focus:outline-none focus:ring focus:border-blue-400"></textarea>
-            <button className="bg-white font-bold xl:text-2xl mt-4 text-[#337CCF] hover:bg-blue-400 hover:text-white  h-12 w-1/2 rounded-lg">
-              <a
-                href="mailto:lodifhi@gmail.com"
-                className="py-2 px-16 xl:px-28"
-              >
-                Send
-              </a>
+            <label className="text-white my-2 cursor-default">Message</label>
+            <textarea
+              required
+              class="resize-none border rounded-md p-2 w-full h-72  focus:outline-blue-300"
+            ></textarea>
+            <button
+              type="submit"
+              className="bg-white font-bold xl:text-2xl mt-4 text-[#337CCF] hover:bg-blue-400 hover:text-white  h-12 w-1/2 rounded-lg"
+            >
+              Send
             </button>
           </div>
 
-          <div className=" text-gray-600 2xl:col-start-4 2xl:col-end-6 mt-5 lg:mt-0">
+          <div className=" text-gray-600 lg:col-start-4 lg:col-end-6 mt-5 lg:mt-0">
             <p className="mb-1 ml-4 sm:ml-0 font-bold">CONNECT WITH US</p>
             <table class="min-w-full bg-white border border-gray-300">
               <thead>
@@ -71,7 +87,7 @@ function Contact() {
             </table>
           </div>
 
-          <div className="h-auto w-full 2xl:row-start-2 2xl:col-start-4 2xl:col-end-6  2xl:h-full mt-5 lg:mt-0">
+          <div className="h-auto w-full lg:row-start-2 lg:col-start-4 lg:col-end-6 mt-5 lg:mt-0">
             <p className="font-bold text-gray-600 mb-1 ml-4 sm:ml-0">
               Our Location
             </p>

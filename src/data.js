@@ -237,7 +237,7 @@ export const carouselData = [
 
 export const contactData = [
   { id: 0, department: "Information", contactNum: "0344880868" },
-  { id: 1, department: "Emergency", contactNum: "09158713567" },
+  { id: 1, department: "Emergency", contactNum: "09381630291" },
   { id: 2, department: "Accounting", contactNum: "0342130001" },
   { id: 3, department: "Pharmacy", contactNum: "09158713567" }
 ];
