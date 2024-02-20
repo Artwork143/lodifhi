@@ -13,6 +13,7 @@ import ER from "../../pages/ER";
 import OPD from "../../pages/OPD";
 import Doctors from "../../pages/Doctors";
 import PatientRooms from "../../pages/PatientRooms";
+import LoginForm from "../LoginForm";
 
 
 function NavPage() {
@@ -32,6 +33,7 @@ function NavPage() {
         <Route path="/about/doctors" element={<Doctors />} />
         <Route path="/about/patientrooms" element={<PatientRooms />} />
         <Route path="/contact" element={<Contact />} />
+        <Route path="/login" element={<LoginForm />} />
       </Routes>
     </div>
   );

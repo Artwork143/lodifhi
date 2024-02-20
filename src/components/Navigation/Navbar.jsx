@@ -144,6 +144,8 @@ const Navbar = () => {
               <FaFacebookSquare />
             </a>
           </div>
+
+          <NavLink to="/login" className={`text-lg duration-500  rounded-b-lg px-3 py-1 border-t-transparent border-t-4 hover:border-t-blue-300 hover:border-t-4 pb-2 pt-2`}>Login</NavLink>
         </div>
       </div>
 
