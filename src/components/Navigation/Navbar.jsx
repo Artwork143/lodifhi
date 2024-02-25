@@ -37,7 +37,7 @@ const Navbar = () => {
 
   const boxShadow = toggleNav ? "shadow-inner2" : "shadow-md";
   const liDesktop =
-    "duration-500  rounded-b-lg px-3 py-1 border-t-transparent border-t-4 hover:border-t-blue-300 hover:border-t-4 pb-6 text-lg";
+    "duration-500 px-3 py-1 border-t-transparent border-t-4 hover:border-t-blue-300 hover:border-t-4 pb-6 text-lg";
   const liMobile =
     "hover:text-[#337CCF] duration-500 hover:bg-blue-50 rounded-r-lg w-full flex flex-start py-1 px-3 border-l-transparent border-l-4 hover:border-l-[#337CCF] hover:border-l-4 text-lg";
   const activeDesktop = "px-3 py-1 border-t-blue-300 border-t-4 pb-6 text-lg";
@@ -145,7 +145,9 @@ const Navbar = () => {
             </a>
           </div>
 
-          <NavLink to="/login" className={`text-lg duration-500  rounded-b-lg px-3 py-1 border-t-transparent border-t-4 hover:border-t-blue-300 hover:border-t-4 pb-2 pt-2`}>Login</NavLink>
+          <NavLink to="/login" className={({ isActive }) =>
+                  isActive ? "text-lg duration-500 px-3 py-1 border-t-4 border-t-blue-300 mt-2 mb-2" : "text-lg duration-500 px-3 py-1 border-t-transparent border-t-4 hover:border-t-blue-300 hover:border-t-4 mt-2 mb-2"
+                }>Login</NavLink>
         </div>
       </div>
 

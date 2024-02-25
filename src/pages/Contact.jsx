@@ -54,9 +54,9 @@ function Contact() {
               required
               value={name}
               onChange={handleNameChange}
-              className="border rounded-md p-2 w-full h-auto focus:outline-blue-300"
+              className="mt-2 border rounded-md p-2 w-full h-auto focus:outline-blue-300"
             ></input>
-            <div className="grid grid-cols-2 gap-2">
+            <div className="grid grid-cols-2 gap-2 mb-2">
               <label className="text-white mt-2 cursor-default">
                 Mobile Number
               </label>
@@ -83,7 +83,7 @@ function Contact() {
               type="text"
               value={message}
               onChange={handleInputChange}
-              class="resize-none border rounded-md p-2 w-full h-72  focus:outline-blue-300"
+              class="mt-2 resize-none border rounded-md p-2 w-full h-72  focus:outline-blue-300"
             ></textarea>
             <button
               type="submit"
