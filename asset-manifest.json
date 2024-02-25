@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/lodifhi/static/css/main.36a08520.css",
-    "main.js": "/lodifhi/static/js/main.3f2896da.js",
+    "main.js": "/lodifhi/static/js/main.aecb323e.js",
     "static/js/787.9dbe1bb9.chunk.js": "/lodifhi/static/js/787.9dbe1bb9.chunk.js",
     "static/media/slick.svg": "/lodifhi/static/media/slick.2630a3e3eab21c607e21.svg",
     "static/media/slick.eot": "/lodifhi/static/media/slick.a4e97f5a2a64f0ab1323.eot",
@@ -9,11 +9,11 @@
     "static/media/slick.woff": "/lodifhi/static/media/slick.295183786cd8a1389865.woff",
     "index.html": "/lodifhi/index.html",
     "main.36a08520.css.map": "/lodifhi/static/css/main.36a08520.css.map",
-    "main.3f2896da.js.map": "/lodifhi/static/js/main.3f2896da.js.map",
+    "main.aecb323e.js.map": "/lodifhi/static/js/main.aecb323e.js.map",
     "787.9dbe1bb9.chunk.js.map": "/lodifhi/static/js/787.9dbe1bb9.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.36a08520.css",
-    "static/js/main.3f2896da.js"
+    "static/js/main.aecb323e.js"
   ]
 }
