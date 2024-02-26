@@ -1,6 +1,7 @@
 {
-  "short_name": "React App",
-  "name": "Create React App Sample",
+  "name": "Lopez District Farmers' hospital, Incorporated",
+  "short_name": "LODIFHI",
+  "description": "is a level 1, private hospital with a capacity of 55- In-Patient beds. We have two functioning Operating rooms and a Delivery Room. Our OPD operates daily, from 8AM to 4PM.",
   "icons": [
     {
       "src": "favicon.ico",
