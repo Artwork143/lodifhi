@@ -36,7 +36,7 @@ function About() {
       </div>
       <div className="bg-gray-100 pt-1 md:pb-6">
         <div className="grid grid-cols-1 gap-1 mx-0 lg:mx-32 xl:mx-52 2xl:mx-80 my-2 justify-evenly justify-items-center content-evenly items-start cursor-default">
-          <div className="bg-[#1450A3] bg-opacity-70 w-full h-full shadow-inner2 text-white my-2">
+          <div className="bg-white bg-opacity-70 w-full h-full shadow-lg text-gray-700 my-2">
             <h2 className="flex justify-start my-2 ml-5 items-start text-sm lg:text-2xl font-bold cursor-default tracking-widest">
               Hospital Background
             </h2>
