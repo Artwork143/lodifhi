@@ -33,7 +33,7 @@ function Home() {
         <div className="lg:ml-28 xl:ml-44 2xl:ml-80 duration-500 border-l-[#337CCF] border-l-4 pl-2 ml-5">
           <h1 className="text-xl lg:text-4xl text-slate-50 font-bold cursor-default">
             YOUR HEALTH <br />
-            IS OUR CONCERNsssss
+            IS OUR CONCERN
           </h1>
           <button type="button" className="mt-1 py-2.5 me-2 mb-2">
             <NavLink
