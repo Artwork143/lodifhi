@@ -29,11 +29,11 @@ const LoginForm = () => {
   };
 
   return (
-    <div className="flex items-center justify-center min-h-screen bg-gray-100">
-      <div className="w-full max-w-md">
+    <div className="flex items-center justify-center min-h-screen bg-gray-100 overflow-hidden">
+      <div className="w-full max-w-md ">
         <div
           className={`${
-            border ? `translate-x-0 opacity-100` : `translate-x-full opacity-0`
+            border ? `opacity-100` : ` translate-x-full opacity-0`
           } shadow-md mb-5 flex transition-all duration-500 bg-red-200 border py-2 border-red-500 items-center flex-col text-gray-950 text-opacity-80`}
         >
           <p className="font-bold">Wrong Credentials</p>
